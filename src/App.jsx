@@ -3,9 +3,10 @@ import "./App.css";
 import { Header } from "./Layout";
 import Subpage from "./Subpage";
 import tteokwikiPreview from "./assets/tteokwiki-preview.png";
+import chocobowlPreview from "./assets/chocobowl-preview.png";
 const projects = [
   { number: "01", title: "TEST", year: "2026", category: "WEB / JAVASCRIPT", image: tteokwikiPreview, imageAlt: "떡위키 메인 페이지 — 인기 떡과 추천 정보" },
-  { number: "02", title: "TEST", year: "2026", category: "GAME / JAVASCRIPT" },
+  { number: "02", title: "TEST", year: "2026", category: "GAME / JAVASCRIPT", image: chocobowlPreview, imageAlt: "CHOCOBOWL — 통을 회전시켜 초코볼을 담는 게임" },
   { number: "03", title: "TEST", year: "2025", category: "WEB / REACT" },
   { number: "04", title: "TEST", year: "2025", category: "INTERACTION / JS" },
 ];
@@ -79,7 +80,7 @@ function Home() {
           </div>
         </section>
       </main>
-      <footer id="contact" className="reveal"><div className="footer-info"><span>윤서진</span><span>Programer</span><a href="mailto:22561067@kaywon.ac.kr">22561067@kaywon.ac.kr ↗</a></div><a href="#top" className="logo">BACK TO TOP ↑</a></footer>
+      <footer id="contact" className="reveal"><div className="footer-info"><span>윤서진</span><span>Programer</span><a href="mailto:22561067@kaywon.ac.kr">22561067@kaywon.ac.kr ↗</a></div><a href="#top" className="logo">PORTFOLIO</a></footer>
     </div>
   );
 }
